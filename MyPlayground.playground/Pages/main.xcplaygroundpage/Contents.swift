@@ -14,7 +14,7 @@
 /*: question1
 ### 1. Create a variable which represents your bank account balance. (For example: What is a good name for this variable that makes it easily readable for myself now and for the future me _or_ other developers I might be working with? Should I declare it using `let` or `var`? Should it be of type `Int` or `String`?)
 */
-// write your code here
+var accountBalance = 1000000000
 
 
 
@@ -24,14 +24,14 @@
 */
 // write your code here
 
-
+let doge = "Bella"
 
 
 /*: question3
 ### 3. Use the `print()` function to print the name of your new puppy to the console.
 */
 // write your code here
-
+print(doge)
 
 
 
@@ -40,7 +40,7 @@
 */
 // write your code here
 
-
+print("I just got a new puppy named \(doge) and she is awesome!")
 
 
 /*: question5
@@ -48,7 +48,7 @@
 */
 // write your code here
 
-
+print("I have $\(accountBalance) in my bank account.")
 
 
 /*: question6
@@ -56,6 +56,9 @@
 */
 // write your code here
 
+accountBalance += 100
+
+print("I now have $\(accountBalance).")
 
 
 
@@ -64,6 +67,7 @@
 */
 // write your code here
 
+doge = "Yolo"
 
 /*:
  Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions.
